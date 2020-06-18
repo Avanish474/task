@@ -83,6 +83,10 @@ This repository has prewritten code in it.We are are going to use git to tell yo
   
   
 Now go to github and crreate a repository without initializing it and now in the git terminal:
+
+
+   ![Image description](https://github.com/Avanish474/mlops/blob/93f527b538aea168849ce0dcba94b8509212cb67/mld.jpg)
+ 
   
   
     git remote add origin  https://github.com/Avanish474/task.git
