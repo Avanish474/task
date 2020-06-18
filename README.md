@@ -31,90 +31,90 @@ Manually the QA team will check (test) for the website running in dev-docker env
 
 
 
-   mkdir /jenkinstask
+       mkdir /jenkinstask
 
 
 
 Go inside this file and create a subfile
 
 
-  cd /jenkinstask
+      cd /jenkinstask
 
 
-  mkdir task
+      mkdir task
 
 
 
 Now we go inside this file
 
 
-  cd task
+      cd task
 
 
 and now we do git clone to copy our github repsitory inside this file
 
 
-  git clone https://github.com/Avanish474/task.git
+     git clone https://github.com/Avanish474/task.git
   
   
 This repository has prewritten code in it.We are are going to use git to tell you how we created this code.In Git terminal,do the following:
 
 
-  mkdir task
+     mkdir task
   
   
-  cd task
+    cd task
   
   
-  git init
+    git init
  
   
-  cat >> index.html
+    cat >> index.html
   
-  Welcome
+    Welcome
   
-  (control+D)
-  
-  
-  git add index.html
+    (control+D)
   
   
-  git commit -m "first commit"
+    git add index.html
+  
+  
+    git commit -m "first commit"
   
   
 Now go to github and crreate a repository without initializing it and now in the git terminal:
   
   
-  git remote add origin  https://github.com/Avanish474/task.git
+    git remote add origin  https://github.com/Avanish474/task.git
   
   
-  git push -u origin master
+    git push -u origin master
   
   
 Now we shift to dev branch by using the following command:
   
   
-  git branch dev
+    git branch dev
   
   
-  git checkout dev
+    git checkout dev
   
   
-  cat >> index.html
+    cat >> index.html
   
-  This is me
-  
-  (control+D)
-  
-  
-  
-  git add index.html
+    This is me
+   
+    (control+D)
   
   
-  git commit -m "first commit"
+  
+    git add index.html
   
   
-  git push -u origin dev
+    git commit -m "first commit"
+  
+  
+    git push -u origin dev
   
   
 So this were the steps involved in making the code.
@@ -122,29 +122,29 @@ So this were the steps involved in making the code.
 
 Now back in the linux terminal we set the git credential to push to the repository without it asking us any username and password
 
-   $ git config --global credential.helper store
-   $ git push http://example.com/repo.git
-   Username: <type your username>
-   Password: <type your password>
+     $ git config --global credential.helper store
+     $ git push http://example.com/repo.git
+     Username: <type your username>
+     Password: <type your password>
    
    
 Make a bash script to merge the master and dev branch which would help in doing the 3rd jenkins job.
 
 
-gedit mergebranch
+     gedit mergebranch
 
 
-#!/bin/bash
+    #!/bin/bash
 
-git merge dev
-git push -u origin master
+    git merge dev
+    git push -u origin master
 
 
 Now we have to make make two storage files for production and testing code:
 
-  mkdir /productionenv 
+    mkdir /productionenv 
 
-  mkdir /testingenv
+    mkdir /testingenv
   
   
  2-  First we create a job called Githubpullandownload  which will download the production code in the jenkins workspace and store it in /productionenv
