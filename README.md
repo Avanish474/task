@@ -36,6 +36,7 @@ Go inside this file and create a subfile
   mkdir task
 
 
+
 Now we go inside this file
 
 
@@ -57,7 +58,27 @@ This repository has prewritten code in it.We are are going to use git to tell yo
   cd task
   
   
+  git init
+ 
+  
   cat >> index.html
+  
+  Welcome
+  
+  (control+D)
+  
+  
+  git add index.html
+  
+  
+  git commit -m "first commit"
+  
+  
+  Now go to github and crreate a repository without initializing it 
+  
+  git push -u origin master
+  
+  
   
   
   
