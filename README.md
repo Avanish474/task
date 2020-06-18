@@ -85,7 +85,7 @@ This repository has prewritten code in it.We are are going to use git to tell yo
 Now go to github and crreate a repository without initializing it and now in the git terminal:
 
 
-   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
+   ![Image description](https://github.com/Avanish474/task/blob/master/git%203.png)
  
   
   
