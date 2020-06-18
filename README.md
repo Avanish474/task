@@ -85,7 +85,7 @@ This repository has prewritten code in it.We are are going to use git to tell yo
 Now go to github and crreate a repository without initializing it and now in the git terminal:
 
 
-   ![Image description](https://github.com/Avanish474/mlops/blob/93f527b538aea168849ce0dcba94b8509212cb67/mld.jpg)
+   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
  
   
   
@@ -153,14 +153,47 @@ Now we have to make make two storage files for production and testing code:
   
  2-  First we create a job called Githubpullandownload  which will download the production code in the jenkins workspace and store it in /productionenv
  
+   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
+  
+  
+   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
+   
+   
+   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
+    
+    
+   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
+ 
+ 
  
  3-Then we create a job called Jenkinspullfromdev which will download the testing code in the jenkins workspace and store it in /testingenv
+   
+   
+   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
+  
+  
+   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
+   
+   
+   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
+    
+    
+   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
  
  
  4- Our final task is to check whether code from testingenv is opening the website or not and if it is opening the website we'll merge the two codes and trigger the job Githubpullanddownload
   
+   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
+  
+  
+   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
+   
+   
+   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
+    
+    
+   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
  
-
 
 
 
