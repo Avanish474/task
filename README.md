@@ -23,18 +23,26 @@ Manually the QA team will check (test) for the website running in dev-docker env
 
 1- Make a file 
 
+
 mkdir /jenkinstask
+
 
 Go inside this file and create a subfile
 
+
 cd /jenkinstask
+
 
 mkdir task
 
+
 Now we go inside this file
+
 
 cd task
 
+
 and now we do git clone to copy our github repsitory inside this file
 
-git clone 
+
+git clone https://github.com/Avanish474/task.git
