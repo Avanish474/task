@@ -153,46 +153,46 @@ Now we have to make make two storage files for production and testing code:
   
  2-  First we create a job called Githubpullandownload  which will download the production code in the jenkins workspace and store it in /productionenv
  
-   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
+   ![Image description](https://github.com/Avanish474/task/blob/master/job0-1.png)
   
   
-   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
+   ![Image description](https://github.com/Avanish474/task/blob/master/job0-2a.png)
    
    
-   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
+   ![Image description](https://github.com/Avanish474/task/blob/master/job0-2.png)
     
     
-   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
+   ![Image description](https://github.com/Avanish474/task/blob/master/job0-3.png)
  
  
  
  3-Then we create a job called Jenkinspullfromdev which will download the testing code in the jenkins workspace and store it in /testingenv
    
    
-   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
+   ![Image description](https://github.com/Avanish474/task/blob/master/job1-1.png)
   
   
-   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
+   ![Image description](https://github.com/Avanish474/task/blob/master/job1-2a.png)
    
    
-   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
+   ![Image description](https://github.com/Avanish474/task/blob/master/job1-2.png)
     
     
-   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
+   ![Image description](https://github.com/Avanish474/task/blob/master/job1-3.png)
  
  
  4- Our final task is to check whether code from testingenv is opening the website or not and if it is opening the website we'll merge the two codes and trigger the job Githubpullanddownload
   
-   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
+   ![Image description](https://github.com/Avanish474/task/blob/master/job2-1.png)
   
   
-   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
+   ![Image description](https://github.com/Avanish474/task/blob/master/job2-2.png)
    
    
-   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
+   ![Image description]g(https://github.com/Avanish474/task/blob/master/job2-3.png)
     
     
-   ![Image description](https://https://github.com/Avanish474/task/blob/master/git%203.png)
+   
  
 
 
