@@ -189,7 +189,7 @@ Now we have to make make two storage files for production and testing code:
    ![Image description](https://github.com/Avanish474/task/blob/master/job2-2.png)
    
    
-   ![Image description]g(https://github.com/Avanish474/task/blob/master/job2-3.png)
+   ![Image description](https://github.com/Avanish474/task/blob/master/job2-3.png)
     
     
    
