@@ -24,22 +24,22 @@ Manually the QA team will check (test) for the website running in dev-docker env
 1- Make a file 
 
 
-mkdir /jenkinstask
+   mkdir /jenkinstask
 
 
 Go inside this file and create a subfile
 
 
-cd /jenkinstask
+  cd /jenkinstask
 
 
-mkdir task
+  mkdir task
 
 
 Now we go inside this file
 
 
-cd task
+  cd task
 
 
 and now we do git clone to copy our github repsitory inside this file
