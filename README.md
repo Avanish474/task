@@ -45,4 +45,19 @@ Now we go inside this file
 and now we do git clone to copy our github repsitory inside this file
 
 
-git clone https://github.com/Avanish474/task.git
+  git clone https://github.com/Avanish474/task.git
+  
+  
+This repository has prewritten code in it.We are are going to use git to tell you how we created this code.In Git terminal,do the following:
+
+
+  mkdir task
+  
+  
+  cd task
+  
+  
+  cat >> index.html
+  
+  
+  
