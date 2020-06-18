@@ -15,8 +15,14 @@ Manually the QA team will check (test) for the website running in dev-docker env
 # Prerequisite
 
 1- LINUX command knowledge
+
+
 2- Basics of Jenkins
+
+
 3- Docker and some basic concepts of networking
+
+
 4- Git and Github
 
 # Step by Step Description of the TASK we are going to do
@@ -24,7 +30,9 @@ Manually the QA team will check (test) for the website running in dev-docker env
 1- Make a file 
 
 
+
    mkdir /jenkinstask
+
 
 
 Go inside this file and create a subfile
